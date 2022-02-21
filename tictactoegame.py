@@ -294,8 +294,6 @@ def checkIfWon():
         if e == yourCharacter:
             if f == yourCharacter:
                 youWin = True
-    if (a.isspace() & b.isspace() & c.isspace() & d.isspace() & e.isspace() & f.isspace() & g.isspace() & h.isspace() & i.isspace()):
-        tie = True
 
 #calls functions to print the board, prompt the moves, and determine who won
 def Game():
